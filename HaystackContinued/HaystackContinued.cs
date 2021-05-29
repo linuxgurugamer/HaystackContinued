@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
@@ -116,8 +117,26 @@ namespace HaystackReContinued
             this.WinVisible = !this.WinVisible;
         }
 
+        /*  Many mods assume that KSP will be operating with working directory set to its root directory,
+            containing KSP.x86_64 and GameData.  Doesn't hurt to set it though.
+
+            Furthermore, if this is done early enough in the executing KSP instance, it will apply to all
+            code (e.g. mods) executing thereafter.
+
+            Finally, if this change, applied here in HaystackContinued, is moved into a mod that is a)
+            almost ubiquitous and b) very likely to run early (e.g. ModuleManager?), it will have beneficial
+            effects on a far wider scale.  (KerbalKonstructs is another mod that is known to fail based on
+            this faulty assumption.)
+        */       
+        public void setCurrentWorkingDirectory()
+        {
+            string exeDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            Directory.SetCurrentDirectory(exeDir);
+        }
+
         public void Start()
         {
+            setCurrentWorkingDirectory();
             // not an anonymous functions because we need to remove them in #OnDestroy
             GameEvents.onHideUI.Add(onHideUI);
             GameEvents.onShowUI.Add(onShowUI);
