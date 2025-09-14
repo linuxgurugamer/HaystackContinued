@@ -1,5 +1,8 @@
 ChangeLog
 
+0.5.7.7
+	Updated version file to use github for new version info
+
 0.5.7.6
 	Fixed path for loading images (broken by new launcher)
 

@@ -9,3 +9,13 @@ D:\Users\jbb\github\HaystackContinued\HaystackContinued\obj\Debug\HaystackReCont
 D:\Users\jbb\github\HaystackContinued\HaystackContinued\bin\Debug\ClickThroughBlocker.pdb
 D:\Users\jbb\github\HaystackContinued\HaystackContinued\bin\Debug\ToolbarControl.pdb
 D:\Users\jbb\github\HaystackContinued\HaystackContinued\obj\Debug\HaystackContinued.csproj.AssemblyReference.cache
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\bin\Debug\HaystackReContinued.dll
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\bin\Debug\HaystackReContinued.pdb
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\bin\Debug\ClickThroughBlocker.dll
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\bin\Debug\ToolbarControl.dll
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\bin\Debug\ToolbarControl.pdb
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\obj\Debug\HaystackContinued.csproj.AssemblyReference.cache
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\obj\Debug\HaystackContinued.csproj.CoreCompileInputs.cache
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\obj\Debug\Haystack.E1CBBA01.Up2Date
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\obj\Debug\HaystackReContinued.dll
+D:\github\KSP-1-Mods\HaystackContinued\HaystackContinued\obj\Debug\HaystackReContinued.pdb
